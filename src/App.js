@@ -82,7 +82,7 @@ const App = () => {
   return (
     <div className="App">
       <div className="user-list">
-        <div className="firstbox">
+        {/* <div className="firstbox">
           <div className="icons-container">
             <i className="fas fa-pen edit"></i>
             <i
@@ -94,7 +94,7 @@ const App = () => {
           </div>
           <div className="circle1">A</div>
           <div className="text">Azan Isa</div>
-        </div>
+        </div> */}
         {users && (
           <UserList users={users} title="All Users!" deleteUser={deleteUser}>
             {console.log(users)}
